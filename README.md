@@ -28,6 +28,10 @@ My modified MATLAB code: https://github.com/linan2/VAD_MATLAB.git
 
 A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghuatan/rVAD.git
 
+Alibaba modelscope: https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
+
+Speech brain: https://speechbrain.github.io/
+
 ## References
 
 [1]Freeman, D.K.; Southcott, C.B.; Boyd, I.; Cosier, G. A voice activity detector for pan-European digital cellular mobile telephone service. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, Glasgow, Scotland, 23–26 May 1989; pp. 369–372
