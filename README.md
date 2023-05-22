@@ -1,5 +1,5 @@
 # Voice-activity-detection-VAD-paper
-Voice activity detection (VAD) paper（From 195*~2019）and its classification. The arrangement of these papers was arranged when I was studying for a double degree in teacher UNOKI's research group of JAIST at 2019. Now share it with those in need to learn. Welcome contribution and add new related papers.
+Voice activity detection (VAD) paper（From 195*~2019）and its classification. The arrangement of these papers was arranged when I was studying for a double degree in teacher UNOKI Lab of JAIST at 2019. Now share it with those in need to learn. Welcome contribution and add new related papers.
 
 Method	Feature	Concept	Work Environment
 
