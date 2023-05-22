@@ -30,7 +30,7 @@ A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghu
 
 Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
-Speech brain: https://speechbrain.github.io/
+Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
 
 ## References
 
