@@ -1,5 +1,5 @@
 # Voice-activity-detection-VAD-paper
-Voice activity detection (VAD) is a technique to detect whether a sound signal belongs to speech or non-speech based on the statistical distribution of acoustic features. It plays an important role in front-end processing for various speech applications such as speech enhancement, robust speech recognition systems, and speaker recognition. Here, we have compiled several VAD-related research papers and some their corresponding codes, starting from 195*. Scholars and engineers in need can refer to them for learning purposes. Welcome anyone who is interested to add research papers published after 2019.
+Voice activity detection (VAD) is a technique to detect whether a sound signal belongs to speech or non-speech based on the statistical distribution of acoustic features. It plays an important role in front-end processing for various speech applications such as speech enhancement, robust speech recognition systems, and speaker recognition. Here, we have compiled several VAD-related research papers and some their corresponding codes, starting from 198*. Scholars and engineers in need can refer to them for learning purposes. Welcome anyone who is interested to add research papers published after 2019.
 
 ## Classification
 | Method | Feature | Concept | Work Environment |
