@@ -1,60 +1,28 @@
 # Voice-activity-detection-VAD-paper
 Voice activity detection (VAD) paper（From 195*~2019）and its classification. The arrangement of these papers was arranged when I was studying for a double degree in teacher UNOKI Lab of JAIST at 2019. Now share it with those in need to learn. Welcome contribution and add new related papers.
 
+# Classification
 | Method | Feature | Concept | Work Environment |
 | --- | --- | --- | --- |
-| G.729B VAD | linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy | Harmonicity | Noisy, High SNR |
-| Short term feature -VAD | ZCR, energy, correlation function, Pitch detection | Short term speech features | Quiet |
-| Wavelet - based VAD | Wavelet，wavelet entropy, perceptual wavelet packet decomposition | Wavelet | Noisy, High SNR |
-| Entropy based VAD | Spectral entropy, energy, spectrum | Entropy | Noisy, Stable noise |
-| AMR VAD.1 | pitch period, SNR, tone detection, Complex signal analysis and detection | Sub -band analysis | Noisy, high SNR |
-| AMR VAD.2 | channel energy, channel SNR, voice metric, frame SNR, long-term SNR | Sub-band analysis | Noisy, high SNR |
-| Cepstrum based | MFCC, PLCC | Cepstrum | Noisy / stationary noise |
-| Spectral Peaks-based | Spectral Peaks feature | Spectral Peaks | Noisy |
-| Speech enhancement (spectral subtraction) based VAD | Energy | Speech enhancement two steps processing | Noisy |
-| MTF - VAD | Temporal power envelope | MTF | Reverberant / stationary noise |
-| EMD - based VAD | empirical mode decomposition and modulation spectrum analysis | EMD | Noisy/Stationary noise |
-| LSTV/LSFM -VAD | degree of non-stationarity, Auto-correlation, spectral flatness, spectral variation | Long term variation | Noisy, unstationary noise |
-| Kalman filter-based | log-Mel spectral | Kalman filter | Noisy |
-| HMM/Bayesian/GMM/clustering/spectral clustering(unsupervised) -based VAD | MFCC, correlation function, energy, spectra-gram, wavelet, Mel-subband | Statistics (Unsupervised, supervised) | Noisy, stationary, unstationary |
-| LDA -based VAD | Frequency Filtering features | LDA | Reverberant |
-| SVM - based VAD | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
-| DNN/CNN/LSTM based VAD | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
+| G.729B VAD [6, 24] | linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy | Harmonicity | Noisy, High SNR |
+| Short term feature -VAD  [1,3,51] | ZCR, energy, correlation function, Pitch detection | Short term speech features | Quiet |
+| Wavelet - based VAD  [7,37,83] | Wavelet，wavelet entropy, perceptual wavelet packet decomposition | Wavelet | Noisy, High SNR |
+| Entropy based VAD [20,22,30,45,82,89] | Spectral entropy, energy, spectrum | Entropy | Noisy, Stable noise |
+| AMR VAD.1 [10,11,24] | pitch period, SNR, tone detection, Complex signal analysis and detection | Sub -band analysis | Noisy, high SNR |
+| AMR VAD.2 [10,11,24] | channel energy, channel SNR, voice metric, frame SNR, long-term SNR | Sub-band analysis | Noisy, high SNR |
+| Cepstrum based [2,4,18] | MFCC, PLCC | Cepstrum | Noisy / stationary noise |
+| Spectral Peaks-based [52,57] | Spectral Peaks feature | Spectral Peaks | Noisy |
+| Speech enhancement (spectral subtraction) based VAD [56] | Energy | Speech enhancement two steps processing | Noisy |
+| MTF - VAD  [71,86] | Temporal power envelope | MTF | Reverberant / stationary noise |
+| EMD - based VAD  [66,80] | empirical mode decomposition and modulation spectrum analysis | EMD | Noisy/Stationary noise |
+| LSTV/LSFM -VAD [58,69, 79, 85] | degree of non-stationarity, Auto-correlation, spectral flatness, spectral variation | Long term variation | Noisy, unstationary noise |
+| Kalman filter-based [48] | log-Mel spectral | Kalman filter | Noisy |
+| HMM/Bayesian/GMM/clustering/spectral clustering(unsupervised) -based VAD [12, 13, 21, 36,37,38,47,61,68, 75,81] | MFCC, correlation function, energy, spectra-gram, wavelet, Mel-subband | Statistics (Unsupervised, supervised) | Noisy, stationary, unstationary |
+| LDA -based VAD [33] | Frequency Filtering features | LDA | Reverberant |
+| SVM - based VAD  [27,44,67,89] | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
+| DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96] | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
 
-G.729B VAD [6, 24]	linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy	Harmonicity 	Noisy, High SNR 
-
-Short term feature -VAD [1,3,51]	ZCR, energy, correlation function,
-
-Pitch detection	Short term speech features	Quiet
-
-Wavelet - based VAD [7,37,83]	Wavelet，wavelet entropy, perceptual wavelet packet decomposition	Wavelet	Noisy, High SNR
-
-Entropy based VAD [20,22,30,45,82,89]	Spectral entropy, energy, spectrum	Entropy 	Noisy, Stable noise
-
-AMR VAD.1 [10,11,24]	pitch period, SNR, tone detection,Complex signal analysis and detection	Sub -band analysis	Noisy, high SNR
-
-AMR VAD.2 [10,11,24]	channel energy, channel SNR,voice metric, frame SNR, long-term SNR	Sub-band analysis	Noisy, high SNR
-
-Cepstrum based [2,4,18]	MFCC, PLCC	Cepstrum 	Noisy / stationary noise
-
-Spectral Peaks-based [52,57]	Spectral Peaks feature	Spectral Peaks	Noisy
-
-Speech enhancement (spectral subtraction) based VAD [56] Energy	Speech enhancement two steps processing 	Noisy 
-	
-MTF - VAD [71,86]	Temporal power envelope	MTF	Reverberant / stationary noise
-
-EMD - based VAD [66,80]	empirical mode decomposition and modulation spectrum analysis	EMD	Noisy/Stationary noise
-
-LSTV/LSFM -VAD [58,69, 79, 85]	degree of non-stationarity, Auto-correlation, spectral flatness,spectral variation	Long term variation	Noisy ,unstationary noise
-Kalman filter-based [48]	log-Mel spectral	Kalman filter	Noisy
-
-HMM/Bayesian/GMM/clustering/spectral clustering(unsupervised) -based VAD [12, 13, 21, 36,37,38,47,61,68, 75,81]	MFCC, correlation function, energy, spectra-gram,wavelet,Mel-subband	Statistics (Unsupervised, supervised)	Noisy, stationary ,unstationary
-
-LDA -based VAD [33]	Frequency Filtering features	LDA	Reverberant
-
-SVM - based VAD [27,44,67,89]	MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference 	SVM	Noisy
-
-DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96]	Pitch, MFCC, LPC, PLP phase, and spectra-gram.	Deep learning	Noisy / unstable noise
+# References
 
 [1]Freeman, D.K.; Southcott, C.B.; Boyd, I.; Cosier, G. A voice activity detector for pan-European digital cellular mobile telephone service. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, Glasgow, Scotland, 23–26 May 1989; pp. 369–372
 
