@@ -1,6 +1,27 @@
 # Voice-activity-detection-VAD-paper
 Voice activity detection (VAD) paper（From 195*~2019）and its classification. The arrangement of these papers was arranged when I was studying for a double degree in teacher UNOKI's research group of JAIST. Now share it with those in need to learn.
 Method	Feature	Concept	Work Environment
+
+| Method | Feature | Concept | Work Environment |
+| --- | --- | --- | --- |
+| G.729B VAD | linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy | Harmonicity | Noisy, High SNR |
+| Short term feature -VAD | ZCR, energy, correlation function, Pitch detection | Short term speech features | Quiet |
+| Wavelet - based VAD | Wavelet，wavelet entropy, perceptual wavelet packet decomposition | Wavelet | Noisy, High SNR |
+| Entropy based VAD | Spectral entropy, energy, spectrum | Entropy | Noisy, Stable noise |
+| AMR VAD.1 | pitch period, SNR, tone detection, Complex signal analysis and detection | Sub -band analysis | Noisy, high SNR |
+| AMR VAD.2 | channel energy, channel SNR, voice metric, frame SNR, long-term SNR | Sub-band analysis | Noisy, high SNR |
+| Cepstrum based | MFCC, PLCC | Cepstrum | Noisy / stationary noise |
+| Spectral Peaks-based | Spectral Peaks feature | Spectral Peaks | Noisy |
+| Speech enhancement (spectral subtraction) based VAD | Energy | Speech enhancement two steps processing | Noisy |
+| MTF - VAD | Temporal power envelope | MTF | Reverberant / stationary noise |
+| EMD - based VAD | empirical mode decomposition and modulation spectrum analysis | EMD | Noisy/Stationary noise |
+| LSTV/LSFM -VAD | degree of non-stationarity, Auto-correlation, spectral flatness, spectral variation | Long term variation | Noisy, unstationary noise |
+| Kalman filter-based | log-Mel spectral | Kalman filter | Noisy |
+| HMM/Bayesian/GMM/clustering/spectral clustering(unsupervised) -based VAD | MFCC, correlation function, energy, spectra-gram, wavelet, Mel-subband | Statistics (Unsupervised, supervised) | Noisy, stationary, unstationary |
+| LDA -based VAD | Frequency Filtering features | LDA | Reverberant |
+| SVM - based VAD | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
+| DNN/CNN/LSTM based VAD | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
+
 G.729B VAD [6, 24]	linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy	Harmonicity 	Noisy, High SNR 
 Short term feature -VAD [1,3,51]	ZCR, energy, correlation function,
 Pitch detection	Short term speech features	Quiet
