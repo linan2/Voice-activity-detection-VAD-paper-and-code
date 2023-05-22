@@ -22,6 +22,8 @@ Voice activity detection (VAD) paper（From 195*~2019）and its classification. 
 | SVM - based VAD  [27,44,67,89] | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
 | DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96] | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
 
+## Code
+
 ## References
 
 [1]Freeman, D.K.; Southcott, C.B.; Boyd, I.; Cosier, G. A voice activity detector for pan-European digital cellular mobile telephone service. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, Glasgow, Scotland, 23–26 May 1989; pp. 369–372
