@@ -28,6 +28,8 @@ My modified MATLAB code: https://github.com/linan2/VAD_MATLAB.git
 
 A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghuatan/rVAD.git
 
+sohn VAD: https://github.com/eesungkim/Voice_Activity_Detector
+
 Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
 Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
