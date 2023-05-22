@@ -41,9 +41,7 @@ Cepstrum based [2,4,18]	MFCC, PLCC	Cepstrum 	Noisy / stationary noise
 
 Spectral Peaks-based [52,57]	Spectral Peaks feature	Spectral Peaks	Noisy
 
-Speech enhancement (spectral subtraction) based VAD [56]
-
-	Energy	Speech enhancement two steps processing 	Noisy 
+Speech enhancement (spectral subtraction) based VAD [56] Energy	Speech enhancement two steps processing 	Noisy 
 	
 MTF - VAD [71,86]	Temporal power envelope	MTF	Reverberant / stationary noise
 
