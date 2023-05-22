@@ -1,7 +1,7 @@
 # Voice-activity-detection-VAD-paper
 Voice activity detection (VAD) paper（From 195*~2019）and its classification. The arrangement of these papers was arranged when I was studying for a double degree in UNOKI Lab of JAIST at 2019. Now share it with those in need to learn. Welcome contribution and add new related papers.
 
-# Classification
+## Classification
 | Method | Feature | Concept | Work Environment |
 | --- | --- | --- | --- |
 | G.729B VAD [6, 24] | linear spectrum frequency, zero crossing rate, full band signal energy, low band signal energy | Harmonicity | Noisy, High SNR |
@@ -22,7 +22,7 @@ Voice activity detection (VAD) paper（From 195*~2019）and its classification. 
 | SVM - based VAD  [27,44,67,89] | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
 | DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96] | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
 
-# References
+## References
 
 [1]Freeman, D.K.; Southcott, C.B.; Boyd, I.; Cosier, G. A voice activity detector for pan-European digital cellular mobile telephone service. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, Glasgow, Scotland, 23–26 May 1989; pp. 369–372
 
