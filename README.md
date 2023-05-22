@@ -32,6 +32,8 @@ Alibaba modelscope (my friend told me it is effective): https://www.modelscope.c
 
 Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
 
+I like its MRCG feature to do experiments (this code is too old). : https://github.com/jtkim-kaist/VAD.git
+
 ## References
 
 [1]Freeman, D.K.; Southcott, C.B.; Boyd, I.; Cosier, G. A voice activity detector for pan-European digital cellular mobile telephone service. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing, Glasgow, Scotland, 23–26 May 1989; pp. 369–372
