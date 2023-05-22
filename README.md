@@ -28,7 +28,7 @@ My modified MATLAB code: https://github.com/linan2/VAD_MATLAB.git
 
 A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghuatan/rVAD.git
 
-Alibaba modelscope: https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
+Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
 Speech brain: https://speechbrain.github.io/
 
