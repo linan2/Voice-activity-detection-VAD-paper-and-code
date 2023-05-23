@@ -55,9 +55,13 @@ DNS challenge: https://github.com/microsoft/DNS-Challenge
 
 WSJ
 
-timit
+timit: 
 
-Librispeech
+ted: http://www.openslr.org/7/
+
+Librispeech: http://www.openslr.org/12/
+
+AISHELL: http://www.openslr.org/33/
 
 ## References
 
