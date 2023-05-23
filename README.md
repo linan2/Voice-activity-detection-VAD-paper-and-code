@@ -28,7 +28,7 @@ My modified MATLAB code: https://github.com/linan2/VAD_MATLAB.git
 
 A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghuatan/rVAD.git
 
-Sohn VAD: https://github.com/eesungkim/Voice_Activity_Detector
+Sohn VAD (some paper use this method to label, however I tried rVAD is better): https://github.com/eesungkim/Voice_Activity_Detector
 
 Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
