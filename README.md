@@ -471,3 +471,5 @@ Wuhan, China, 23–26 September 2005; pp. 1257–1260.
 [199]Z. Fan, Z. Bai, X. Zhang, S. Rahardja and J. Chen, "AUC Optimization for Deep Learning Based Voice Activity Detection," ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 
 6760-6764.
 
+[200] Nan LI,  Longbiao Wang ,  Unoki M , et al. Robust voice activity detection using a masked auditory encoder based convolutional neural network[C]// In Proc. IEEE-ICASSP, 2021. IEEE, 2021.
+
