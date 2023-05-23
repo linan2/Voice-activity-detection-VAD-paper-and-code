@@ -39,13 +39,13 @@ I like its MRCG feature to do experiments (this code is too old). : https://gith
 ## Dataset
 
 ### Noise dataset
-Musan
+Musan: http://www.openslr.org/17/
 
-Noisex92
+Noisex92:
 
 Non-Speech-100
 
-Rir_noise
+Rir_noise: http://www.openslr.org/28/ code: https://github.com/linan2/add_reverb2
 
 Demond
 
