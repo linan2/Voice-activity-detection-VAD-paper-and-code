@@ -49,7 +49,7 @@ Rir_noise: http://www.openslr.org/28/ code: https://github.com/linan2/add_reverb
 
 Demond
 
-DNS challenge
+DNS challenge: https://github.com/microsoft/DNS-Challenge
 
 ### Speech dataset
 
