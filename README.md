@@ -1,6 +1,8 @@
 # Voice activity detection (VAD) paper and code
 Voice activity detection (VAD) is a technique to detect whether a sound signal belongs to speech or non-speech based on the statistical distribution of acoustic features. It plays an important role in front-end processing for various speech applications such as speech enhancement, robust speech recognition systems, and speaker recognition. Here, we have compiled several VAD-related research papers and some their corresponding codes, starting from 198*. Scholars and engineers in need can refer to them for learning purposes. Welcome anyone who is interested to add research papers published after 2019.
 
+Recently, I have been using a script to synthesize audio using an open-source noise dataset and clean speech dataset for the purpose of training and decoding in deep learning. This script will also be made open-source. Of course, if you have a better script, please feel free to contribute it to this project.
+
 ## Classification
 | Method | Feature | Concept | Work Environment |
 | --- | --- | --- | --- |
