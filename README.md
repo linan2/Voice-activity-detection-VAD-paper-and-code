@@ -3,6 +3,15 @@ Voice activity detection (VAD) is a technique to detect whether a sound signal b
 
 Recently, I have been using a script to synthesize audio using an open-source noise dataset and clean speech dataset for the purpose of training and decoding in deep learning. This script will also be made open-source. Of course, if you have a better script, please feel free to contribute it to this project.
 
+#Contents
+Classification
+
+Code 
+
+Dataset
+
+References
+
 ## Classification
 | Method | Feature | Concept | Work Environment |
 | --- | --- | --- | --- |
