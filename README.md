@@ -31,7 +31,7 @@ Recently, I have been using a script to synthesize audio using an open-source no
 | HMM/Bayesian/GMM/clustering/spectral clustering(unsupervised) -based VAD [12, 13, 21, 36,37,38,47,61,68, 75,81] | MFCC, correlation function, energy, spectra-gram, wavelet, Mel-subband | Statistics (Unsupervised, supervised) | Noisy, stationary, unstationary |
 | LDA -based VAD [33] | Frequency Filtering features | LDA | Reverberant |
 | SVM - based VAD  [27,44,67,89] | MFCC, Entropy, spectral distortion, full-band energy difference, low-band energy difference, the zero-crossing difference | SVM | Noisy |
-| DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96] | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
+| DNN/CNN/LSTM based VAD [72,82,92,94,95,97, 102, 76,77,84,88,91,96,200,201] | Pitch, MFCC, LPC, PLP phase, and spectra-gram. | Deep learning | Noisy / unstable noise |
 
 ## Code
 
@@ -484,4 +484,4 @@ Wuhan, China, 23–26 September 2005; pp. 1257–1260.
 6760-6764.
 
 [200] Nan LI,  Longbiao Wang ,  Unoki M , et al. Robust voice activity detection using a masked auditory encoder based convolutional neural network[C]// In Proc. IEEE-ICASSP, 2021. IEEE, 2021.
-
+[201] Li N, Wang L, Ge M, et al. Robust voice activity detection using an auditory-inspired masked modulation encoder based convolutional attention network[J]. Speech Communication, 2024, 157: 103024.
