@@ -484,4 +484,5 @@ Wuhan, China, 23–26 September 2005; pp. 1257–1260.
 6760-6764.
 
 [200] Nan LI,  Longbiao Wang ,  Unoki M , et al. Robust voice activity detection using a masked auditory encoder based convolutional neural network[C]// In Proc. IEEE-ICASSP, 2021. IEEE, 2021.
+
 [201] Li N, Wang L, Ge M, et al. Robust voice activity detection using an auditory-inspired masked modulation encoder based convolutional attention network[J]. Speech Communication, 2024, 157: 103024.
