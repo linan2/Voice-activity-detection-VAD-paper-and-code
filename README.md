@@ -43,6 +43,8 @@ Sohn VAD (some paper use this method to label, however I tried rVAD is better): 
 
 Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
+fsmn vad https://github.com/lovemefan/fsmn-vad.git
+
 Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
 
 I like its MRCG feature to do experiments (this code is too old). : https://github.com/jtkim-kaist/VAD.git
