@@ -45,6 +45,8 @@ Alibaba modelscope (my friend told me it is effective): https://www.modelscope.c
 
 fsmn vad https://github.com/lovemefan/fsmn-vad.git
 
+A VAD project: https://github.com/snakers4/silero-vad.git
+
 Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
 
 I like its MRCG feature to do experiments (this code is too old). : https://github.com/jtkim-kaist/VAD.git
