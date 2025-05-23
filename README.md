@@ -52,6 +52,9 @@ Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/
 I like its MRCG feature to do experiments (this code is too old). : https://github.com/jtkim-kaist/VAD.git
 
 I haven't tried this method, so I cannot assess its performance. If you have a need, you can try it: https://github.com/Cruze-Young/LTPD-VAD
+
+TEN VAD is a real-time voice activity detection system designed for enterprise use, providing accurate frame-level speech activity detection. It shows superior precision compared to both WebRTC VAD and Silero VAD, which are commonly used in the industry. Additionally, TEN VAD offers lower computational complexity and reduced memory usage compared to Silero VAD. Meanwhile, the architecture's temporal efficiency enables rapid voice activity detection, significantly reducing end-to-end response and turn detection latency in conversational AI systems.
+[(https://github.com/TEN-framework/ten-vad.git)]
 ## Dataset
 
 ### Noise dataset
