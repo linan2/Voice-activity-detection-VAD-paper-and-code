@@ -49,6 +49,8 @@ A VAD project: https://github.com/snakers4/silero-vad.git
 
 Speech brain: [(https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriParty/VAD)]
 
+WebRTC VAD https://github.com/wiseman/py-webrtcvad.git
+
 I like its MRCG feature to do experiments (this code is too old). : https://github.com/jtkim-kaist/VAD.git
 
 I haven't tried this method, so I cannot assess its performance. If you have a need, you can try it: https://github.com/Cruze-Young/LTPD-VAD
