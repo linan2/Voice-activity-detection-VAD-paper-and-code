@@ -41,9 +41,11 @@ A effective VAD code when I am writing paper (rVAD)：https://github.com/zhenghu
 
 Sohn VAD (some paper use this method to label, however I tried rVAD is better): https://github.com/eesungkim/Voice_Activity_Detector
 
-Alibaba modelscope (my friend told me it is effective): https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
+Alibaba modelscope: https://www.modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/summary
 
 fsmn vad https://github.com/lovemefan/fsmn-vad.git
+
+FireRedVAD: Voice Activity Detection (VAD) supporting speech/singing/music in 100+ languages. 97.57% F1, outperforming Silero-VAD, TEN-VAD, and FunASR-VAD. Supports non-streaming/streaming VAD and Audio Event Detection.：https://github.com/FireRedTeam/FireRedASR2S.git
 
 A VAD project: https://github.com/snakers4/silero-vad.git
 
