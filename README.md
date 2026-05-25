@@ -1,5 +1,7 @@
 # Voice Activity Detection (VAD) — Papers & Code
 
+[![English](https://img.shields.io/badge/English-README-blue)](README.md) [![中文](https://img.shields.io/badge/中文-README-red)](README_CN.md)
+
 [![Stars](https://img.shields.io/github/stars/linan2/Voice-activity-detection-VAD-paper-and-code?style=social)](https://github.com/linan2/Voice-activity-detection-VAD-paper-and-code)
 [![Forks](https://img.shields.io/github/forks/linan2/Voice-activity-detection-VAD-paper-and-code?style=social)](https://github.com/linan2/Voice-activity-detection-VAD-paper-and-code)
 [![Watchers](https://img.shields.io/github/watchers/linan2/Voice-activity-detection-VAD-paper-and-code?style=social)](https://github.com/linan2/Voice-activity-detection-VAD-paper-and-code)
@@ -34,15 +36,11 @@ This repository collects VAD-related research papers (from the **1980s to 2024**
 
 ## Code Implementations
 
-### Author's Own Work
-| Project | Link | Description |
-|---------|------|-------------|
-| **VAD_MATLAB** | [github.com/linan2/VAD_MATLAB](https://github.com/linan2/VAD_MATLAB) | MATLAB implementation of various VAD algorithms (maintained by the author) |
-| **rVAD** | [github.com/zhenghuatan/rVAD](https://github.com/zhenghuatan/rVAD) | An efficient VAD algorithm used in the author's papers (recommended over Sohn VAD) |
-
 ### Recommended / Popular
 | Project | Link | Description |
 |---------|------|-------------|
+| **VAD_MATLAB** | [github.com/linan2/VAD_MATLAB](https://github.com/linan2/VAD_MATLAB) | MATLAB implementation of various VAD algorithms |
+| **rVAD** | [github.com/zhenghuatan/rVAD](https://github.com/zhenghuatan/rVAD) | Efficient VAD algorithm, recommended over Sohn VAD |
 | **FireRedVAD** | [github.com/FireRedTeam/FireRedASR2S](https://github.com/FireRedTeam/FireRedASR2S) | Supports 100+ languages (speech/singing/music detection). **F1 = 97.57%**, outperforming Silero-VAD, TEN-VAD, and FunASR-VAD. Supports both streaming and non-streaming VAD |
 | **Silero-VAD** | [github.com/snakers4/silero-vad](https://github.com/snakers4/silero-vad) | Popular pre-trained VAD model, widely used in production |
 | **TEN VAD** | [github.com/TEN-framework/ten-vad](https://github.com/TEN-framework/ten-vad) | Enterprise-grade real-time VAD. Higher precision than WebRTC/Silero VAD with lower computational cost and memory usage. Reduces end-to-end latency in conversational AI |
@@ -63,7 +61,7 @@ This repository collects VAD-related research papers (from the **1980s to 2024**
 ## Method Classification
 
 | Method | Features | Core Concept | Suitable Environment |
-|--------|---------|---------------|---------------------|
+|--------|-----------|---------------|---------------------|
 | **G.729B VAD** [6, 24] | Linear spectrum freq., ZCR, full/low band energy | Harmonicity | Noisy, High SNR |
 | **Short-term Feature VAD** [1, 3, 51] | ZCR, energy, correlation, pitch detection | Short-term speech features | Quiet |
 | **Wavelet-based VAD** [7, 37, 83] | Wavelet, wavelet entropy, perceptual wavelet packet decomposition | Wavelet transform | Noisy, High SNR |
@@ -80,7 +78,7 @@ This repository collects VAD-related research papers (from the **1980s to 2024**
 | **HMM/Bayesian/GMM/Clustering VAD** [12, 13, 21, 36, 37, 38, 47, 61, 68, 75, 81] | MFCC, correlation, energy, spectrogram, wavelet | Statistical (supervised/unsupervised) | Noisy, stationary/non-stationary |
 | **LDA-based VAD** [33] | Frequency filtering features | Linear Discriminant Analysis | Reverberant |
 | **SVM-based VAD** [27, 44, 67, 89] | MFCC, entropy, spectral distortion, energy diff | Support Vector Machine | Noisy |
-| **DNN/CNN/LSTM VAD** [72, 82, 92, 94, 95, 97, 102, 200, 201] | Pitch, MFCC, LPC, PLP phase, spectrogram | Deep Learning | Noisy / non-stationary noise |
+| **DNN/CNN/LSTM VAD** [72, 82, 92, 94, 95, 97, 102, 200, 201] | Pitch, MFCC, LPC, PLP phase, spectrogram, masked auditory/modulation encoder | Deep Learning | Noisy / non-stationary noise |
 
 ---
 
@@ -317,11 +315,9 @@ This repository collects VAD-related research papers (from the **1980s to 2024**
 
 [102] Fan, Z. et al. AUC Optimization for Deep Learning Based Voice Activity Detection. In *Proc. IEEE ICASSP*, 2019, pp. 6760-6764.
 
-[200] **Li, N.**; Wang, L.; Unoki, M. et al. Robust voice activity detection using a masked auditory encoder based convolutional neural network. In *Proc. IEEE ICASSP*, 2021. :star:
+[200] Li, N.; Wang, L.; Unoki, M. et al. Robust voice activity detection using a masked auditory encoder based convolutional neural network. In *Proc. IEEE ICASSP*, 2021.
 
-[201] **Li, N.**; Wang, L.; Ge, M. et al. Robust voice activity detection using an auditory-inspired masked modulation encoder based convolutional attention network. *Speech Communication*, vol. 157, 103024, 2024. :star:
-
-> :star: = Author's own publication
+[201] Li, N.; Wang, L.; Ge, M. et al. Robust voice activity detection using an auditory-inspired masked modulation encoder based convolutional attention network. *Speech Communication*, vol. 157, 103024, 2024.
 
 ---
 
